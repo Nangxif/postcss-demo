@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const PostcssPluginPxToVw7 = require('postcss-plugin-px-to-vw8');
+const PostcssPluginPxToVw7 = require('postcss-plugin-px-to-vw7');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   mode: "production",
